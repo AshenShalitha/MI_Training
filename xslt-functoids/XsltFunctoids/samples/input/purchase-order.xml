@@ -1,0 +1,44 @@
+<PurchaseOrder>
+    <OrderId>po-1001</OrderId>
+    <OrderDate>2026-10-15</OrderDate>
+    <Customer>
+        <FirstName>  john </FirstName>
+        <MiddleName>peter</MiddleName>
+        <LastName>SMITH</LastName>
+        <Email> John.Smith@Example.COM </Email>
+        <Phone>+44 20 7946 0958</Phone>
+        <Tier>GOLD</Tier>
+    </Customer>
+    <ShippingAddress>
+        <Street>221B Baker Street</Street>
+        <City>London</City>
+        <PostalCode>NW1 6XE</PostalCode>
+        <Country>GB</Country>
+    </ShippingAddress>
+    <SubTotal>1250.5</SubTotal>
+    <TaxRate>18</TaxRate>
+    <ShippingCharge>15.5</ShippingCharge>
+    <Items>
+        <Item>
+            <Sku>sku-100</Sku>
+            <Name>Laptop Bag</Name>
+            <Quantity>2</Quantity>
+            <UnitPrice>45.5</UnitPrice>
+            <Discount>10</Discount>
+        </Item>
+        <Item>
+            <Sku>sku-200</Sku>
+            <Name>Wireless Mouse</Name>
+            <Quantity>0</Quantity>
+            <UnitPrice>25</UnitPrice>
+            <Discount>0</Discount>
+        </Item>
+        <Item>
+            <Sku>sku-300</Sku>
+            <Name>27 inch Monitor</Name>
+            <Quantity>3</Quantity>
+            <UnitPrice>350.25</UnitPrice>
+            <Discount>5</Discount>
+        </Item>
+    </Items>
+</PurchaseOrder>

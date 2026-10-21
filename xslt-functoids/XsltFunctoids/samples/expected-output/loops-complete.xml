@@ -1,0 +1,24 @@
+<SalesOrder>
+    <OrderId>PO-1001</OrderId>
+    <LineCount>2</LineCount>
+    <OrderTotal>1080.11</OrderTotal>
+    <Lines>
+        <Line>
+            <ProductCode>SKU-100</ProductCode>
+            <Description>Laptop Bag</Description>
+            <Quantity>2</Quantity>
+            <UnitPrice>45.5</UnitPrice>
+            <DiscountPercent>10</DiscountPercent>
+            <LineTotal>81.9</LineTotal>
+        </Line>
+        <Line>
+            <ProductCode>SKU-300</ProductCode>
+            <Description>27 inch Monitor</Description>
+            <Quantity>3</Quantity>
+            <UnitPrice>350.25</UnitPrice>
+            <DiscountPercent>5</DiscountPercent>
+            <LineTotal>998.21</LineTotal>
+        </Line>
+    </Lines>
+</SalesOrder>
+

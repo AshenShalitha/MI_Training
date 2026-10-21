@@ -1,0 +1,13 @@
+<CustomerInvoice>
+    <InvoiceNumber>INV-PO-1001</InvoiceNumber>
+    <CustomerName>John Smith</CustomerName>
+    <CustomerInitials>JS</CustomerInitials>
+    <Email>john.smith@example.com</Email>
+    <InvoiceDate>15/10/2026</InvoiceDate>
+    <DueDate>14/11/2026</DueDate>
+    <SubTotal>1250.5</SubTotal>
+    <TaxAmount>225.09</TaxAmount>
+    <ShippingCharge>15.5</ShippingCharge>
+    <GrandTotal>1491.09</GrandTotal>
+</CustomerInvoice>
+

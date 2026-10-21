@@ -1,0 +1,10 @@
+<CustomerProfile>
+    <OrderId>po-1002</OrderId>
+    <FullName>Priya Raman</FullName>
+    <Email>NOT PROVIDED</Email>
+    <Phone>NOT PROVIDED</Phone>
+    <EmailProvided>false</EmailProvided>
+    <PhoneProvided>false</PhoneProvided>
+    <ProfileStatus>INCOMPLETE</ProfileStatus>
+</CustomerProfile>
+

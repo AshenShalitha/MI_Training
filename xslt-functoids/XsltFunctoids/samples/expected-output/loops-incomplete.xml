@@ -1,0 +1,16 @@
+<SalesOrder>
+    <OrderId>PO-1002</OrderId>
+    <LineCount>1</LineCount>
+    <OrderTotal>420</OrderTotal>
+    <Lines>
+        <Line>
+            <ProductCode>SKU-400</ProductCode>
+            <Description>USB-C Hub</Description>
+            <Quantity>4</Quantity>
+            <UnitPrice>105</UnitPrice>
+            <DiscountPercent>0</DiscountPercent>
+            <LineTotal>420</LineTotal>
+        </Line>
+    </Lines>
+</SalesOrder>
+

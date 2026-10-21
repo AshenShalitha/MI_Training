@@ -1,0 +1,13 @@
+<CustomerInvoice>
+    <InvoiceNumber>INV-PO-1002</InvoiceNumber>
+    <CustomerName>Priya Raman</CustomerName>
+    <CustomerInitials>PR</CustomerInitials>
+    <Email/>
+    <InvoiceDate>18/10/2026</InvoiceDate>
+    <DueDate>17/11/2026</DueDate>
+    <SubTotal>420</SubTotal>
+    <TaxAmount>75.6</TaxAmount>
+    <ShippingCharge>0</ShippingCharge>
+    <GrandTotal>495.6</GrandTotal>
+</CustomerInvoice>
+

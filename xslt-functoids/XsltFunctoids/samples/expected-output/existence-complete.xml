@@ -1,0 +1,17 @@
+<CustomerProfile>
+    <OrderId>po-1001</OrderId>
+    <FullName>john SMITH</FullName>
+    <MiddleName>peter</MiddleName>
+    <Email>John.Smith@Example.COM</Email>
+    <Phone>+44 20 7946 0958</Phone>
+    <EmailProvided>true</EmailProvided>
+    <PhoneProvided>true</PhoneProvided>
+    <DeliveryAddress>
+        <Street>221B Baker Street</Street>
+        <City>London</City>
+        <PostalCode>NW1 6XE</PostalCode>
+        <Country>GB</Country>
+    </DeliveryAddress>
+    <ProfileStatus>COMPLETE</ProfileStatus>
+</CustomerProfile>
+

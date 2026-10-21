@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/xslt/orders" name="OrderXsltAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST" uri-template="/scripting">
+        <inSequence>
+            <xslt key="resources:xslt/OrderScripting.xslt"/>
+            <respond/>
+        </inSequence>
+        <faultSequence>
+        </faultSequence>
+    </resource>
+    <resource methods="POST" uri-template="/logical">
+        <inSequence>
+            <xslt key="resources:xslt/OrderRouting.xslt"/>
+            <respond/>
+        </inSequence>
+        <faultSequence>
+        </faultSequence>
+    </resource>
+    <resource methods="POST" uri-template="/existence">
+        <inSequence>
+            <xslt key="resources:xslt/CustomerProfile.xslt"/>
+            <respond/>
+        </inSequence>
+        <faultSequence>
+        </faultSequence>
+    </resource>
+    <resource methods="POST" uri-template="/loops">
+        <inSequence>
+            <xslt key="resources:xslt/OrderLines.xslt"/>
+            <respond/>
+        </inSequence>
+        <faultSequence>
+        </faultSequence>
+    </resource>
+</api>

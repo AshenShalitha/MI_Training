@@ -1,0 +1,14 @@
+<ShipmentInstruction>
+    <OrderId>po-1002</OrderId>
+    <DestinationCountry>IN</DestinationCountry>
+    <Warehouse>BLR-WH01</Warehouse>
+    <Currency>INR</Currency>
+    <LoyaltyDiscountPercent>5</LoyaltyDiscountPercent>
+    <IsDomestic>true</IsDomestic>
+    <IsHighValue>false</IsHighValue>
+    <ExpressShipping>false</ExpressShipping>
+    <CustomsDeclarationRequired>false</CustomsDeclarationRequired>
+    <ManagerApprovalRequired>false</ManagerApprovalRequired>
+    <ShippingMethod>DOMESTIC-STANDARD</ShippingMethod>
+</ShipmentInstruction>
+

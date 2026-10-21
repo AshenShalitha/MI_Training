@@ -1,0 +1,53 @@
+openapi: 3.0.1
+info:
+  title: OrderXsltAPI
+  description: API Definition of OrderXsltAPI
+  version: 1.0.0
+servers:
+  - url: http://localhost:8290/xslt/orders
+  - url: https://localhost:8253/xslt/orders
+paths:
+  /scripting:
+    post:
+      requestBody:
+        description: Sample Payload
+        content:
+          application/xml:
+            schema:
+              type: object
+      responses:
+        default:
+          description: Default response
+  /logical:
+    post:
+      requestBody:
+        description: Sample Payload
+        content:
+          application/xml:
+            schema:
+              type: object
+      responses:
+        default:
+          description: Default response
+  /existence:
+    post:
+      requestBody:
+        description: Sample Payload
+        content:
+          application/xml:
+            schema:
+              type: object
+      responses:
+        default:
+          description: Default response
+  /loops:
+    post:
+      requestBody:
+        description: Sample Payload
+        content:
+          application/xml:
+            schema:
+              type: object
+      responses:
+        default:
+          description: Default response

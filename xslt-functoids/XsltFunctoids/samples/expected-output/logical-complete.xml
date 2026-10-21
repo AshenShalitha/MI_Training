@@ -1,0 +1,14 @@
+<ShipmentInstruction>
+    <OrderId>po-1001</OrderId>
+    <DestinationCountry>GB</DestinationCountry>
+    <Warehouse>LON-WH02</Warehouse>
+    <Currency>GBP</Currency>
+    <LoyaltyDiscountPercent>10</LoyaltyDiscountPercent>
+    <IsDomestic>false</IsDomestic>
+    <IsHighValue>true</IsHighValue>
+    <ExpressShipping>true</ExpressShipping>
+    <CustomsDeclarationRequired>true</CustomsDeclarationRequired>
+    <ManagerApprovalRequired>true</ManagerApprovalRequired>
+    <ShippingMethod>INTERNATIONAL-EXPRESS</ShippingMethod>
+</ShipmentInstruction>
+

@@ -1,0 +1,28 @@
+<PurchaseOrder>
+    <OrderId>po-1002</OrderId>
+    <OrderDate>2026-10-18</OrderDate>
+    <Customer>
+        <FirstName>Priya</FirstName>
+        <LastName>Raman</LastName>
+        <Email>   </Email>
+        <Phone></Phone>
+        <Tier>SILVER</Tier>
+    </Customer>
+    <ShippingAddress>
+        <Street>12 MG Road</Street>
+        <City>Bengaluru</City>
+        <Country>IN</Country>
+    </ShippingAddress>
+    <SubTotal>420</SubTotal>
+    <TaxRate>18</TaxRate>
+    <ShippingCharge>0</ShippingCharge>
+    <Items>
+        <Item>
+            <Sku>sku-400</Sku>
+            <Name>USB-C Hub</Name>
+            <Quantity>4</Quantity>
+            <UnitPrice>105</UnitPrice>
+            <Discount>0</Discount>
+        </Item>
+    </Items>
+</PurchaseOrder>

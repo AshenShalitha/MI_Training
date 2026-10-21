@@ -1,0 +1,10 @@
+---
+key: "OrderXsltAPI-1.0.0"
+name : "OrderXsltAPI"
+displayName : "OrderXsltAPI"
+description: "OrderXsltAPI"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/xslt/orders"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
